@@ -1,0 +1,43 @@
+.navigation_bar {
+    display: flex;
+    flex-direction: column;
+    flex: 0.2;
+    height: 100%;
+    background-color: #282a2c;
+    overflow-y: auto;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.links > a{
+    font-size: 16px;
+    flex: 1;
+    padding: 7px;
+    text-decoration: none;
+    color: #fff
+}
+
+.unactive:hover{
+    background-color: #7cd8f7;
+}
+
+.logout:hover{
+    background-color: #7cd8f7;
+}
+
+.active:hover {
+    background-color: #006fff;
+}
+
+.logout {
+    font-size: 16px;
+    flex: 1;
+    padding: 7px;
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
